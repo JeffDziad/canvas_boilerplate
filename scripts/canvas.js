@@ -45,17 +45,6 @@ function randomColor(colors) {
     return colors[Math.floor(Math.random() * colors.length)];
 }
 
-// ----------------Main Methods-------------------- //
-
-function init() {
-    //main
-}
-
-function animate() {
-    requestAnimationFrame(animate);
-    c.clearRect(0, 0, canvas.width, canvas.height);
-}
-
 // ------------Program--------------------------- //
 
 
@@ -67,6 +56,16 @@ function animate() {
 
 
 
+// ----------------Main Methods-------------------- //
+
+function init() {
+    //main
+}
+
+function animate() {
+    requestAnimationFrame(animate);
+    c.clearRect(0, 0, canvas.width, canvas.height);
+}
 
 // ----------Starting Method-------------------- //
 start();
