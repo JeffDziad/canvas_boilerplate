@@ -24,6 +24,7 @@ const mouse = {
 const default_colors = ['#2185C5', '#7ECEFD', '#FFF6E5', '#FF7F66'];
 
 // ------------------Event Listeners----------------- //
+
 addEventListener('mousemove', (event) => {
     mouse.x = event.clientX;
     mouse.y = event.clientY;
@@ -34,17 +35,6 @@ addEventListener('resize', () => {
     canvas.height = innerHeight;
     init();
 })
-
-// ----------------Main Methods-------------------- //
-
-function init() {
-    //main
-}
-
-function animate() {
-    requestAnimationFrame(animate);
-    c.clearRect(0, 0, canvas.width, canvas.height);
-}
 
 // -------------Helper Functions------------------ //
 
@@ -58,3 +48,23 @@ function randomColor(colors) {
 
 // ------------Program--------------------------- //
 
+
+
+
+
+
+
+
+
+
+
+// ----------------Main Methods-------------------- //
+
+function init() {
+    //main
+}
+
+function animate() {
+    requestAnimationFrame(animate);
+    c.clearRect(0, 0, canvas.width, canvas.height);
+}
