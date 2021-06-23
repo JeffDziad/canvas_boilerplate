@@ -10,9 +10,8 @@ setup();
 function setup() {
     canvas.width = innerWidth;
     canvas.height = innerHeight;
-    init();
-    animate();
 }
+
 
 // ------------------Variables--------------------- //
 
@@ -60,6 +59,21 @@ function animate() {
 // ------------Program--------------------------- //
 
 
+
+
+
+
+
+
+
+
+
+// ----------Starting Method-------------------- //
+start();
+function start() {
+    init();
+    animate();
+}
 
 
 
